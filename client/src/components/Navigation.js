@@ -1,7 +1,14 @@
+import { Link } from "react-router-dom";
+
 const Navigation = () => {
   return (
-    <nav>
-      <h3>main nav</h3>
+    <nav className="mainNav">
+      <ul>
+        <Link to="/">About Me</Link>
+        <Link to="/portfolio">Portfolio</Link>
+        <Link to="/contact">Contact</Link>
+        <Link to="/resume">Resume</Link>
+      </ul>
     </nav>
   );
 };
