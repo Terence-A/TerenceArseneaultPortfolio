@@ -1,17 +1,25 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Navigation from "./components/Navigation";
-import Project from "./components/Project";
+import About from "./components/About";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
+import Resume from "./components/Resume";
 
 function App() {
   return (
-    <div>
-      <h1>Starter Code</h1>
-      <Header />
-      <Navigation />
-      <Project />
-      <Footer />
-    </div>
+    <Router>
+      <div>
+        <Header />
+        <Routes>
+          <Route path="/" element={<About />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

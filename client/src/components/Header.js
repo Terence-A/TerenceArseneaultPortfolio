@@ -1,7 +1,10 @@
+import Navigation from "./Navigation";
+
 const Header = () => {
   return (
     <header>
-      <h2>Main Header placeholder</h2>
+      <h2>Terence Arseneault</h2>
+      <Navigation />
     </header>
   );
 };
