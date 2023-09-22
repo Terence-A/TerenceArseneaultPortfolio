@@ -1,0 +1,4 @@
+.appNav {
+  display: flex;
+  flex-direction: column;
+}
