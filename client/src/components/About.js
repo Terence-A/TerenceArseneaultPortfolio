@@ -1,7 +1,10 @@
+import photo from "./photo.png";
+
 const About = () => {
   return (
     <div>
       <h2>About Me </h2>
+      <img src={photo} alt="self portrait" />
       <section>
         <p>
           Hello there! I'm a coding enthusiast who has transitioned a

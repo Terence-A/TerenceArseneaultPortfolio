@@ -1,0 +1,8 @@
+.links {
+  display: flex;
+  width: 600px;
+  justify-content: space-around;
+}
+.mainNav .links a {
+  text-decoration: none;
+}
