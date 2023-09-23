@@ -1,0 +1,42 @@
+.mainCarousel {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.image {
+  height: 600px;
+  width: 1200px;
+  margin: 15px 0 75px 0;
+  border-radius: 20px;
+}
+.thumbs-wrapper {
+  display: none;
+}
+.legend {
+  font-size: 1rem !important;
+  margin-bottom: 65px;
+}
+.carousel.carousel-slider .control-arrow {
+  opacity: 90%;
+}
+.carouselWrapper h2 {
+  display: flex;
+  height: 15vh;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 2rem;
+  margin: 0;
+}
+.control-dots {
+  margin-bottom: 30px !important;
+}
+.mainCarousel a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: white;
+}
+.mainCarousel h3 {
+  padding: 0;
+  margin: 0;
+}

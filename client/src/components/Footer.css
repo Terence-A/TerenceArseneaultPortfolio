@@ -1,0 +1,14 @@
+footer {
+  display: flex;
+  /* margin: auto; */
+  width: 200px;
+  justify-content: space-between;
+}
+
+footer img {
+  width: 30px;
+  opacity: 70%;
+}
+footer img:hover {
+  opacity: 100%;
+}
