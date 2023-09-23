@@ -1,4 +1,24 @@
 .appNav {
+  width: 100vw;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: whitesmoke;
+}
+
+.appNav .content {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+footer {
+  margin: 0 auto;
 }
