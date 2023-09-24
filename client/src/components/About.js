@@ -1,11 +1,15 @@
 import "./About.css";
+import photo from "./photo.png";
 
 const About = () => {
   return (
     <div className="aboutSection">
-      <h2>
-        Hi, I'm <span>Terence Arseneault</span>
-      </h2>
+      <div className="aboutHeader">
+        <img src={photo} alt="" />
+        <h2>
+          Hi, I'm <span>Terence Arseneault</span>
+        </h2>
+      </div>
 
       <section>
         <p>
