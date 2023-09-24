@@ -14,10 +14,27 @@ function App() {
         <Header />
         <div className="content">
           <Routes>
-            <Route path="/" element={<About />} />
-            <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/resume" element={<Resume />} />
+            <Route
+              path="/"
+              element={<About />}
+              exact
+              activeClassName="active"
+            />
+            <Route
+              path="/portfolio"
+              element={<Portfolio />}
+              activeClassName="active"
+            />
+            <Route
+              path="/contact"
+              element={<Contact />}
+              activeClassName="active"
+            />
+            <Route
+              path="/resume"
+              element={<Resume />}
+              activeClassName="active"
+            />
           </Routes>
           <Footer />
         </div>
