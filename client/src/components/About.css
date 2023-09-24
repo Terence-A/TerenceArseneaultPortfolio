@@ -9,11 +9,20 @@
 }
 .aboutSection section {
   margin-bottom: 100px;
-  /* background-color: #26264e; */
-  /* border: 4px solid whitesmoke; */
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0 0px 6px 1px whitesmoke;
+}
+.aboutSection img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.aboutHeader {
+  display: flex;
+  width: 800px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .aboutSection h2 {
@@ -31,6 +40,6 @@
   font-size: 1.5rem;
   font-weight: 100;
   line-height: 2rem;
-  padding: 30px;
+
   margin: 5px;
 }
