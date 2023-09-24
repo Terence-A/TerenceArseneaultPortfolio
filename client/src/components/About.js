@@ -1,4 +1,3 @@
-import photo from "./photo.png";
 import "./About.css";
 
 const About = () => {

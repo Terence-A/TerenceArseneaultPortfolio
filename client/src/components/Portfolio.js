@@ -2,10 +2,12 @@ import React, { Component } from "react";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import photo from "./photo.png";
 import byteSizeBlog from "./byteSizeBlog.png";
 import "./Portfolio.css";
 import atlanticGlamping from "./atlanticGlamping.jpeg";
+import whatsForDinner from "./whatsForDinner.png";
+import weatherDashboard from "./weatherDashboard.png";
+import workDayScheduler from "./workDayScheduler.png";
 
 class Portfolio extends Component {
   render() {
@@ -35,14 +37,51 @@ class Portfolio extends Component {
               <p className="legend">Legend 2</p>
             </div>
           </a>
-          <div>
-            <img src={photo} alt="clear" className="imgThree image" />
-            <p className="legend">Legend 3</p>
-          </div>
-          <div>
-            <img src={photo} alt="clear" className="imgThree image" />
-            <p className="legend">Legend 3</p>
-          </div>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/Terence-A/WhatsForDinner"
+          >
+            <div>
+              <h3>- What's for Dinner -</h3>
+              <img
+                src={whatsForDinner}
+                alt="clear"
+                className="imgThree image"
+              />
+              <p className="legend"> Whats for Dinner </p>
+            </div>
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/Terence-A/WeatherDashboard"
+          >
+            <div>
+              <h3>- Weather Dashboard -</h3>
+              <img
+                src={weatherDashboard}
+                alt="clear"
+                className="imgThree image"
+              />
+              <p className="legend">Weather Dashboard</p>
+            </div>
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/Terence-A/workDayScheduler"
+          >
+            <div>
+              <h3>- Work Day Scheduler -</h3>
+              <img
+                src={workDayScheduler}
+                alt="clear"
+                className="imgThree image"
+              />
+              <p className="legend">Work Day Scheduler</p>
+            </div>
+          </a>
         </Carousel>
       </div>
     );
