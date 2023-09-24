@@ -14,7 +14,7 @@ class Portfolio extends Component {
     return (
       <div className="carouselWrapper">
         <h2>My Work</h2>
-        <Carousel className="mainCarousel">
+        <Carousel className="mainCarousel" showThumbs={false}>
           <a
             target="_blank"
             rel="noopener noreferrer"
