@@ -22,3 +22,7 @@ body {
 footer {
   margin: 0 auto;
 }
+
+.active {
+  background-color: rgba(7, 7, 7, 0.596);
+}

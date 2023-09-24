@@ -7,6 +7,9 @@ const Contact = () => {
     email: "",
     message: "",
   });
+  const [nameError, setNameError] = useState("");
+  const [emailError, setEmailError] = useState("");
+  const [textError, setTextError] = useState("");
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -18,6 +21,19 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setNameError("");
+    setEmailError("");
+    setTextError("");
+    if (formData.name === "") {
+      setNameError("Name cannot be empty, please enter your name!");
+      return;
+    } else if (formData.email === "") {
+      setEmailError("Email cannot be empty, please enter a valid email!");
+      return;
+    } else if (formData.message === "") {
+      setTextError("Message area cannot be empty, please enter some text!");
+      return;
+    }
     console.log(formData.name, formData.email, formData.message);
   };
 
@@ -33,6 +49,7 @@ const Contact = () => {
           value={formData.name}
           onChange={handleChange}
         />
+        <p>{nameError}</p>
 
         <label htmlFor="email">Email address: </label>
         <input
@@ -42,6 +59,7 @@ const Contact = () => {
           value={formData.email}
           onChange={handleChange}
         />
+        <p>{emailError}</p>
 
         <label htmlFor="message">Message: </label>
         <textarea
@@ -52,6 +70,7 @@ const Contact = () => {
           rows="10"
           onChange={handleChange}
         ></textarea>
+        <p>{textError}</p>
 
         <button type="submit">Submit</button>
       </form>
