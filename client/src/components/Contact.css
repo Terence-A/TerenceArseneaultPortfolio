@@ -1,0 +1,46 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  margin: auto;
+  font-size: 2rem;
+}
+form label {
+  margin: 5px 0;
+}
+form input {
+  font-size: 2rem;
+  border-radius: 10px;
+  padding: 2px 10px;
+}
+form textarea {
+  font-size: 2rem;
+  padding: 10px;
+  border-radius: 10px;
+}
+form button {
+  font-size: 2rem;
+  width: 200px;
+  margin: 20px auto;
+  background-color: #bfbf17;
+  border: none;
+  border-radius: 5px;
+  color: whitesmoke;
+}
+form button:hover {
+  cursor: pointer;
+  color: #454577;
+  /* background-color: #bfbf17b0; */
+}
+.contactForm h3 {
+  text-align: center;
+  font-size: 2rem;
+}
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+}
+.content {
+  width: 100%;
+}

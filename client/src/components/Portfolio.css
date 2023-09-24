@@ -9,9 +9,9 @@
   margin: 15px 0 75px 0;
   border-radius: 20px;
 }
-.thumbs-wrapper {
+/* .thumbs-wrapper {
   display: none;
-}
+} */
 .legend {
   font-size: 1rem !important;
   margin-bottom: 65px;
@@ -21,7 +21,7 @@
 }
 .carouselWrapper h2 {
   display: flex;
-  height: 15vh;
+  height: 11.25vh;
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
