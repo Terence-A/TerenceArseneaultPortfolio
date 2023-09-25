@@ -78,3 +78,18 @@
     font-size: 2rem;
   }
 }
+
+@media screen and (max-width: 660px) {
+  .aboutSection {
+    margin: 10px;
+  }
+  .aboutSection p {
+    width: 300px;
+  }
+  .aboutSection h2 span {
+    font-size: 1.3rem;
+  }
+  .aboutSection h2 {
+    font-size: 1rem;
+  }
+}

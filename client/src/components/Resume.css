@@ -92,3 +92,27 @@
     align-items: center;
   }
 }
+
+@media screen and (max-width: 660px) {
+  .frontEnd li img {
+    width: 25px;
+    height: 25px;
+  }
+  .backEnd li img {
+    width: 25px;
+    height: 25px;
+  }
+  .sm-card {
+    padding: 5px;
+    margin: 5px;
+  }
+  .sm-card p {
+    font-size: 1rem;
+  }
+  .frontEndList {
+    width: 200px;
+  }
+  .backEndList {
+    width: 200px;
+  }
+}
