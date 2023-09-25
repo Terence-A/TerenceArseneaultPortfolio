@@ -8,6 +8,7 @@ import atlanticGlamping from "./atlanticGlamping.jpeg";
 import whatsForDinner from "./whatsForDinner.png";
 import weatherDashboard from "./weatherDashboard.png";
 import workDayScheduler from "./workDayScheduler.png";
+import codingQuiz from "./codingQuiz.png";
 
 class Portfolio extends Component {
   render() {
@@ -113,7 +114,24 @@ class Portfolio extends Component {
               rel="noopener noreferrer"
               href="https://terence-a.github.io/workDayScheduler/"
             >
-              <p className="legend">Work Day Scheduler</p>
+              <p className="legend">Deploy Work Day Scheduler</p>
+            </a>
+          </div>
+          <div>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/Terence-A/codingQuizChallenge"
+            >
+              <h3>- Coding Quiz Challenge Repo -</h3>
+              <img src={codingQuiz} alt="clear" className="imgThree image" />
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://terence-a.github.io/codingQuizChallenge/"
+            >
+              <p className="legend">Deploy Coding Quiz Challenge</p>
             </a>
           </div>
         </Carousel>
