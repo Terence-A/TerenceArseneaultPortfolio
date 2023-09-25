@@ -33,5 +33,6 @@
 }
 .navCard:hover {
   background-color: rgba(7, 7, 7, 0.596);
+  border-left: 8px solid #bfbf17;
   color: #454577;
 }

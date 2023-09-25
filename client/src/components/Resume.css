@@ -20,6 +20,7 @@
 
 .frontEndList {
   display: flex;
+  flex-wrap: wrap;
 }
 .backEndList {
   display: flex;
