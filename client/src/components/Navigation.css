@@ -36,3 +36,21 @@
   border-left: 8px solid #bfbf17;
   color: #454577;
 }
+
+@media screen and (max-width: 1180px) {
+  .navCard {
+    width: 75px;
+  }
+}
+@media screen and (max-width: 875px) {
+  .mainNav img {
+    width: 20px;
+  }
+  .navCard:hover {
+    border: none;
+    color: #bfbf17;
+  }
+  .navCard {
+    width: 50px;
+  }
+}

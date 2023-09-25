@@ -19,7 +19,7 @@ const Navigation = () => {
             <Link to="/">
               <div className="navCard">
                 <img src={aboutIcon} alt="" />
-                About Me
+                <p>About Me</p>
               </div>
             </Link>
           </li>
@@ -27,7 +27,7 @@ const Navigation = () => {
             <Link to="/portfolio">
               <div className="navCard">
                 <img src={porfolioIcon} alt="" />
-                My Work
+                <p>My Work</p>
               </div>
             </Link>
           </li>
@@ -35,7 +35,7 @@ const Navigation = () => {
             <Link to="/contact">
               <div className="navCard">
                 <img src={contactIcon} alt="" />
-                Contact
+                <p>Contact</p>
               </div>
             </Link>
           </li>
@@ -43,7 +43,7 @@ const Navigation = () => {
             <Link to="/resume">
               <div className="navCard">
                 <img src={resumeIcon} alt="" />
-                Resume
+                <p>Resume</p>
               </div>
             </Link>
           </li>

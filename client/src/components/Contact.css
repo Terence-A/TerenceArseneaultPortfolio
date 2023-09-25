@@ -50,3 +50,8 @@ form button:hover {
 .content {
   width: 100%;
 }
+@media screen and (max-width: 1180px) {
+  form {
+    width: 600px;
+  }
+}
