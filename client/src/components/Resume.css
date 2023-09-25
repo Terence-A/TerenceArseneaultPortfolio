@@ -1,0 +1,56 @@
+.frontEnd {
+  display: flex;
+  flex-direction: column;
+}
+
+.frontEnd li img {
+  width: 75px;
+  height: 75px;
+}
+.frontEnd li {
+  list-style: none;
+}
+.backEnd li img {
+  width: 75px;
+  height: 75px;
+}
+.backEnd li {
+  list-style: none;
+}
+
+.frontEndList {
+  display: flex;
+}
+.backEndList {
+  display: flex;
+}
+.sm-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.resumeWrapper p {
+  font-size: 1.2rem;
+  margin: 10px 0 0 0;
+}
+.resumeWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+}
+.resumeWrapper h2 {
+  font-size: 2rem;
+}
+.resumeWrapper h3 {
+  font-size: 1.6rem;
+}
+.resumeWrapper a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #bfbf17;
+  padding: 10px;
+}
