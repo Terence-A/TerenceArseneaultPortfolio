@@ -41,3 +41,14 @@
   margin: 0;
   color: #bfbf17;
 }
+@media screen and (max-width: 660px) {
+  .mainCarousel {
+    margin: 10px;
+  }
+  .image {
+    height: 300px;
+  }
+  .mainCarousel h3 {
+    font-size: 1.5rem;
+  }
+}
