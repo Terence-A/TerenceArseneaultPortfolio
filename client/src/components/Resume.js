@@ -63,7 +63,7 @@ const Resume = () => {
         </ul>
       </div>
       <div className="backEnd">
-        <h3>Back-end Prficiencies</h3>
+        <h3>Back-end Proficiencies</h3>
         <ul className="backEndList">
           <li className="sm-card">
             <img src={apiIcon} alt="" />
