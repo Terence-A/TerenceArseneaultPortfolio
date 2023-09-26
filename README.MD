@@ -16,7 +16,7 @@ Thanks for being part of this exciting journey!
 
 - Full Stack Web Development
 - Frontend: HTML, CSS, JavaScript, jQuery,Bootstrap
-- Backend: Node.js, Express.js,MySQL, Heroku
+- Backend: Node.js, Express.js,MySQL, Netlify
 - Agile Methodologies
 - 3D Art: Modeling, Sculpting, Animation
 - Music Recording and Production
@@ -39,7 +39,7 @@ I'm always open to collaboration, discussions, and inquiries. Let's connect and 
 
 - LinkedIn: [View My LinkedIn](https://www.linkedin.com/in/terence-arseneault-90489b265/)
 
-- Deployed App: [View My Porfolio](https://terence-a.github.io/ProfessionalPortfolio/)
+- Deployed App: [View My Porfolio](https://terence-arseneault-portfolio.netlify.app)
 
 Location: Saint John, New Brunswick, Canada
 
