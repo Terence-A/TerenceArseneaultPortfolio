@@ -41,6 +41,15 @@
   margin: 0;
   color: #bfbf17;
 }
+.mainCarousel button {
+  background-color: #bfbf17;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: aliceblue;
+}
 @media screen and (max-width: 660px) {
   .mainCarousel {
     margin: 10px;
